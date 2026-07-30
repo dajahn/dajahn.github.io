@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="David Jahn — Software Developer CV"/>
+    <title>David Jahn — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+<main class="shell">
+    <header class="topbar">
+        <a class="mark" href="#top">DJ<span> / </span>CV</a>
+        <div class="controls">
+            <button id="langToggle" type="button" aria-label="Switch language">English</button>
+            <button class="print-btn" id="printToggle" type="button" data-i18n="printCv">Print / PDF</button>
+            <button class="theme-btn" id="themeToggle" type="button" aria-label="Enable dark mode">☾</button>
+        </div>
+    </header>
+    <header id="top" class="hero">
+        <div>
+            <div class="eyebrow" data-i18n="eyebrow">Software Developer · Vienna</div>
+            <h1>David<br><em>Jahn.</em></h1>
+            <p class="tagline" data-i18n="tagline">Backend-minded engineer crafting reliable digital systems.</p></div>
+        <div class="hero-side"><p class="intro" data-i18n="intro">Masterstudent für Software Engineering an der TU Wien.
+            Ich entwickle skalierbare Webanwendungen, cloud-native Architekturen und Produkte, die komplexe Dinge
+            einfach machen.</p>
+            <div><div class="avatar" aria-label="David Jahn">DJ</div></div>
+        </div>
+    </header>
+    <div class="layout">
+        <aside class="sidebar">
+            <div><p class="side-label" data-i18n="explore">Explore</p>
+                <nav class="nav"><a href="#profile" data-i18n="profileTitle">Profil</a><a href="#experience"
+                                                                                          data-i18n="experienceTitle">Erfahrung</a><a
+                        href="#projects" data-i18n="projectsTitle">Projekte</a><a href="#education"
+                                                                                  data-i18n="educationTitle">Ausbildung</a><a
+                        href="#skills" data-i18n="skillsTitle">Skills</a></nav>
+            </div>
+            <div class="contact"><p class="side-label" data-i18n="contactTitle">Kontakt</p><a
+                    href="mailto:david.jahn2000@gmail.com">david.jahn2000@gmail.com</a><a href="tel:+4369910551810">+43
+                699 10551810</a>
+                <div data-i18n="location">Wien, Österreich</div>
+                <a href="https://github.com/dajahn" target="_blank" rel="noreferrer">github.com/dajahn ↗</a><a href="#">LinkedIn
+                    ↗</a></div>
+        </aside>
+        <div class="content">
+            <section id="profile">
+                <div class="section-heading"><h2 data-i18n="profileTitle">Profil</h2><span
+                        class="section-index">01</span></div>
+                <div class="profile" data-i18n="profile">Masterstudent an der Software Engineering an der TU Wien mit
+                    Schwerpunkt auf Backend-Entwicklung, Softwarearchitektur und Web-Technologien. Erfahrung in der
+                    Konzeption und Umsetzung moderner Microservice- und serverloser Architekturen sowie in der
+                    Entwicklung skalierbarer Webanwendungen mit Java, Spring Boot und AWS.
+                </div>
+            </section>
+            <section id="experience">
+                <div class="section-heading"><h2 data-i18n="experienceTitle">Erfahrung</h2><span class="section-index">02</span>
+                </div>
+                <div class="timeline" id="experienceList"></div>
+            </section>
+            <section id="projects">
+                <div class="section-heading"><h2 data-i18n="projectsTitle">Ausgewählte Projekte</h2><span
+                        class="section-index">03</span></div>
+                <div class="timeline" id="projectList"></div>
+            </section>
+            <section id="education" class="education">
+                <div class="section-heading"><h2 data-i18n="educationTitle">Ausbildung</h2><span class="section-index">04</span>
+                </div>
+                <div class="timeline" id="educationList"></div>
+            </section>
+            <section id="skills">
+                <div class="section-heading"><h2 data-i18n="skillsTitle">Technische Fähigkeiten</h2><span
+                        class="section-index">05</span></div>
+                <div class="facts" id="skillsList"></div>
+            </section>
+            <section id="languages">
+                <div class="section-heading"><h2 data-i18n="languagesTitle">Sprachen & Interessen</h2><span
+                        class="section-index">06</span></div>
+                <div class="facts">
+                    <div class="fact"><h3 data-i18n="languagesTitle">Sprachen</h3>
+                        <div class="language" ><strong data-i18n="germanTitle">Deutsch</strong><span data-i18n="german">Muttersprache (C2)</span>
+                        </div>
+                        <div class="language" ><strong data-i18n="englishTitle">English</strong><span>C1</span></div>
+                    </div>
+                    <div class="fact"><h3 data-i18n="interestsTitle">Interessen</h3>
+                        <div class="tags" id="interestList"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer><span>© 2026 David Jahn</span><span data-i18n="footer">Software Developer · Wien / Österreich</span>
+    </footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
