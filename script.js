@@ -94,7 +94,7 @@ const data = {
             de: ['Konzeption und Umsetzung einer webbasierten Plattform zur Unterstützung und Dokumentation industrieller Pumpenprüfungen.', 'Entwicklung einer Microservice-Architektur mit Java, Spring Boot, RabbitMQ, PostgreSQL, Redis und Keycloak.', 'Verantwortlich für Design und Entwicklung des Frontends mit Angular einschließlich Benutzeroberflächen zur Verwaltung und Visualisierung von Prüfdaten.', 'Implementierung sicherer Authentifizierungs- und Autorisierungskonzepte sowie Containerisierung der Anwendung mit Docker.', 'Zusammenarbeit in einem kleinen Team im Rahmen eines Industrieprojekts in einem Universitätskurs.'],
             en: ['Designed and built a web platform to support and document industrial pump testing.', 'Developed a microservice architecture with Java, Spring Boot, RabbitMQ, PostgreSQL, Redis and Keycloak.', 'Owned frontend design and development with Angular, including interfaces for managing and visualizing test data.', 'Implemented secure authentication and authorization concepts and containerized the application with Docker.', 'Collaborated in a small team as part of an industry project in a university course.']
         },
-        tags: ['Java', 'Spring Boot', 'Angular', 'RabbitMQ', 'PostgreSQL', 'Redis', 'Keycloak', 'Docker', 'Microservices']
+        tags: ['Java', 'Spring Boot', 'Angular', 'RabbitMQ', 'PostgreSQL', 'Redis', 'Docker', 'Microservices']
     }],
     education: [{
         date: {de: '02/2025 — heute', en: '02/2025 — present'},
