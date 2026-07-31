@@ -62,7 +62,20 @@ const data = {
             en: ['Implemented small programming tasks and code improvements', 'Fixed Java code issues using Eclipse and PMD']
         }
     }],
-    projects: [{
+    projects: [
+        {
+            name: {de: 'Dekodierung der Hate-Speech-Resistenz in LLMs', en: 'Decoding Hate Speech Resistance in LLMs'},
+            description: {
+                de: 'Black-Box-Studie zu persona-basierten Jailbreaks und adversarialem Paraphrasing',
+                en: 'Black-box study of persona-based jailbreaks and adversarial paraphrasing'
+            },
+            date: '2026',
+            items: {
+                de: ['Untersuchung, warum Hate Speech in großen Sprachmodellen gegenüber persona-basierten Jailbreaks resistenter ist als andere schädliche Inhalte.', 'Vergleich der Attack Success Rate (ASR) über die drei Kategorien Hate Speech, Waffen und Hacking mit einem Verbatim-Baseline-Ansatz.', 'Analyse zweier Angriffsvectoren: keyword-bereinigtes Rephrasing und eine mehrsprachige Erweiterung in Deutsch, Niederländisch, Schwedisch, Hindi und Italienisch.', 'Arbeit im Rahmen des Kurses Security and Privacy of Machine Learning.'],
+                en: ['Investigated why hate speech in large language models appears more resistant to persona-based jailbreaks than other harmful content categories.', 'Compared Attack Success Rate (ASR) across three categories — hate speech, weapons, and hacking — using a verbatim baseline.', 'Analyzed two attack vectors: keyword-stripped rephrasing and a multilingual extension in German, Dutch, Swedish, Hindi, and Italian.', 'Completed as part of the Security and Privacy of Machine Learning course in a team project.']
+            },
+            tags: ['LLMs', 'Python', 'Security', 'Privacy', 'Prompt Engineering', 'Adversarial Paraphrasing', 'Black-box Evaluation']
+        }, {
         name: 'Dormlife',
         description: {
             de: 'Community- und Verwaltungsplattform für Studierendenwohnheime',
