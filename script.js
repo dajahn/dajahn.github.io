@@ -74,49 +74,122 @@ const data = {
                 de: ['Untersuchung, warum Hate Speech in großen Sprachmodellen gegenüber persona-basierten Jailbreaks resistenter ist als andere schädliche Inhalte.', 'Vergleich der Attack Success Rate (ASR) über die drei Kategorien Hate Speech, Waffen und Hacking mit einem Verbatim-Baseline-Ansatz.', 'Analyse zweier Angriffsvectoren: keyword-bereinigtes Rephrasing und eine mehrsprachige Erweiterung in Deutsch, Niederländisch, Schwedisch, Hindi und Italienisch.', 'Arbeit im Rahmen des Kurses Security and Privacy of Machine Learning.'],
                 en: ['Investigated why hate speech in large language models appears more resistant to persona-based jailbreaks than other harmful content categories.', 'Compared Attack Success Rate (ASR) across three categories — hate speech, weapons, and hacking — using a verbatim baseline.', 'Analyzed two attack vectors: keyword-stripped rephrasing and a multilingual extension in German, Dutch, Swedish, Hindi, and Italian.', 'Completed as part of the Security and Privacy of Machine Learning course in a team project.']
             },
-            tags: ['LLMs', 'Python', 'Security', 'Privacy', 'Prompt Engineering', 'Adversarial Paraphrasing', 'Black-box Evaluation']
+            tags: ['LLMs', 'Python', 'Security', 'Privacy', 'Prompt Engineering', 'Adversarial Paraphrasing', 'Black-box Evaluation', 'University Project']
+        },
+        {
+            name: {
+                de: 'Großflächige Analyse der Nutzung von JavaScript-Bibliotheken in einem Common Crawl Segment mit Apache Spark',
+                en: 'Large-Scale Analysis of JavaScript Library Usage in a Common Crawl Segment Using Apache Spark'
+            },
+            description: {
+                de: 'Analyse von JavaScript-Bibliotheken in Common Crawl WARC-Segmenten mit Apache Spark und Jsoup',
+                en: 'Analysis of JavaScript library usage in Common Crawl WARC segments using Apache Spark and Jsoup'
+            },
+            date: '2026',
+            items: {
+                de: [
+                    'Lädt WARC-Dateien (HDFS oder lokal) und filtert HTTP-Response-HTML-Seiten.',
+                    'Erkennt verbreitete JS-Bibliotheken anhand von URL-Pattern und zählt deren Vorkommen sowie CDN-Hosts.',
+                    'Berechnet Bibliotheks-Koauftreten pro Seite (Co-Occurrence) und speichert Ergebnisse optional nach HDFS.',
+                    'Skalierbare Implementierung in Scala / Spark DataFrames; Zeppelin-Notebook zur interaktiven Exploration.',
+                    'Durchgeführt als Universitätsprojekt / Studienprojekt.'
+                ],
+                en: [
+                    'Loads WARC files (HDFS or local) and filters HTTP response HTML pages.',
+                    'Detects common JS libraries via URL pattern matching and counts library usage and CDN hosts.',
+                    'Computes library co-occurrence on the same page and optionally writes results to HDFS.',
+                    'Implemented in Scala using Spark DataFrames; a Zeppelin notebook is provided for interactive analysis.',
+                    'Completed as a university project.'
+                ]
+            },
+            tags: ['Scala', 'Apache Spark', 'Hadoop', 'Data Engineering', 'Big Data', 'University Project']
+        },
+        {
+            name: {de: 'IssueLens', en: 'IssueLens'},
+            description: {de: 'Zusammenfassung und Suche für GitHub-Issues', en: 'Summarization and Search for GitHub Issues'},
+            date: '2025',
+            items: {
+                de: [
+                    'Entwicklung eines Systems zur automatischen Zusammenfassung und verbesserten Suche über GitHub-Issues.',
+                    'Implementierung einer komponentengesteuerten Angular-Oberfläche mit Listen- und Detailansichten für Issues.',
+                    'Aufbau eines Django/Python-Backends zur Vermittlung zwischen GitHub REST API und einem LLM-basierten RAG-Service (OpenRouter).',
+                    'RAG-Pipeline: Retrieval relevanter Issue-Threads, Kontextkondensation und Prompt-Engineering zur Ausgabe eines definierten Markdown-Formats.',
+                    'Durchgeführt als Universitätsprojekt.'
+                ],
+                en: [
+                    'Built a system for automatic summarization and improved search over GitHub issues.',
+                    'Implemented a component-based Angular UI with issue list and detail views.',
+                    'Developed a Django/Python backend to mediate between the GitHub REST API and an LLM-based RAG service (OpenRouter).',
+                    'RAG pipeline: retrieve relevant issue threads, condense context and prompt the model to produce a defined Markdown output.',
+                    'Completed as a university project.'
+                ]
+            },
+            tags: ['Django', 'Python', 'Angular', 'OpenRouter', 'RAG', 'GitHub API', 'NLP', 'University Project']
+        },
+        {
+            name: 'Dormlife',
+            description: {
+                de: 'Community- und Verwaltungsplattform für Studierendenwohnheime',
+                en: 'Community and administration platform for student residences'
+            },
+            date: '2025',
+            items: {
+                de: ['Entwicklung des Backends einer plattformübergreifenden Community- und Verwaltungsplattform für iOS, Android und Web.', 'Konzeption und Implementierung einer Microservice-Architektur mit Java, Spring Boot und Spring Cloud Gateway.', 'Entwicklung von Backend-Diensten für Benutzerverwaltung, Veranstaltungen und Ressourcenreservierungen sowie sicherer REST-Schnittstellen.', 'Konzeption und Betrieb der Container- und Orchestrierungsinfrastruktur mit Docker und Kubernetes.', 'Integration von PostgreSQL, Anbindung einer externen MySQL-Datenquelle und Deployment auf einem Kubernetes-Cluster.'],
+                en: ['Built the backend for a cross-platform community and administration platform for iOS, Android and web.', 'Designed and implemented a microservice architecture with Java, Spring Boot and Spring Cloud Gateway.', 'Developed backend services for user management, events and resource reservations, including secure REST APIs.', 'Designed and operated container and orchestration infrastructure with Docker and Kubernetes.', 'Integrated PostgreSQL, connected an external MySQL data source and deployed to a Kubernetes cluster.']
+            },
+            tags: ['Java', 'Spring Boot', 'Spring Cloud Gateway', 'Docker', 'Kubernetes', 'PostgreSQL', 'REST APIs']
         }, {
-        name: 'Dormlife',
-        description: {
-            de: 'Community- und Verwaltungsplattform für Studierendenwohnheime',
-            en: 'Community and administration platform for student residences'
-        },
-        date: '2025',
-        items: {
-            de: ['Entwicklung des Backends einer plattformübergreifenden Community- und Verwaltungsplattform für iOS, Android und Web.', 'Konzeption und Implementierung einer Microservice-Architektur mit Java, Spring Boot und Spring Cloud Gateway.', 'Entwicklung von Backend-Diensten für Benutzerverwaltung, Veranstaltungen und Ressourcenreservierungen sowie sicherer REST-Schnittstellen.', 'Konzeption und Betrieb der Container- und Orchestrierungsinfrastruktur mit Docker und Kubernetes.', 'Integration von PostgreSQL, Anbindung einer externen MySQL-Datenquelle und Deployment auf einem Kubernetes-Cluster.'],
-            en: ['Built the backend for a cross-platform community and administration platform for iOS, Android and web.', 'Designed and implemented a microservice architecture with Java, Spring Boot and Spring Cloud Gateway.', 'Developed backend services for user management, events and resource reservations, including secure REST APIs.', 'Designed and operated container and orchestration infrastructure with Docker and Kubernetes.', 'Integrated PostgreSQL, connected an external MySQL data source and deployed to a Kubernetes cluster.']
-        },
-        tags: ['Java', 'Spring Boot', 'Spring Cloud Gateway', 'Docker', 'Kubernetes', 'PostgreSQL', 'REST APIs']
-    }, {
-        name: 'Site-Lapse',
-        description: {
-            de: 'Cloud-native Plattform zur automatisierten Videoerstellung',
-            en: 'Cloud-native platform for automated video creation'
-        },
-        date: '2024',
-        items: {
-            de: ['Entwicklung einer serverlosen Cloud-Anwendung zur automatisierten Erstellung von Zeitraffer- und Fortschrittsvideos aus hochgeladenen Bildern.', 'Konzeption und Implementierung einer ereignisgesteuerten Architektur mit AWS Lambda und Amazon S3.', 'Entwicklung der Backend-Logik in TypeScript zur Verarbeitung von Bilddaten und Orchestrierung der Videoerstellung.', 'Umsetzung der Infrastruktur als Code mit dem Serverless Stack (SST) zur Bereitstellung und Verwaltung der AWS-Ressourcen.', 'Aufbau einer vollständig serverlosen und skalierbaren Cloud-Native-Architektur.'],
-            en: ['Built a serverless cloud application for automatically creating time-lapse and progress videos from uploaded images.', 'Designed and implemented an event-driven architecture with AWS Lambda and Amazon S3.', 'Developed TypeScript backend logic for image processing and video-generation orchestration.', 'Implemented infrastructure as code with the Serverless Stack (SST) to provision and manage AWS resources.', 'Built a fully serverless and scalable cloud-native architecture.']
-        },
-        tags: ['TypeScript', 'AWS', 'AWS Lambda', 'Amazon S3', 'SST', 'Serverless', 'Cloud Native']
-    }, {
-        name: {de: 'Plattform zur industriellen Pumpenprüfung', en: 'Industrial pump testing platform'},
-        description: {de: 'Vergütetes Industrieprojekt', en: 'Paid industry project'},
-        date: '2024',
-        items: {
-            de: ['Konzeption und Umsetzung einer webbasierten Plattform zur Unterstützung und Dokumentation industrieller Pumpenprüfungen.', 'Entwicklung einer Microservice-Architektur mit Java, Spring Boot, RabbitMQ, PostgreSQL, Redis und Keycloak.', 'Verantwortlich für Design und Entwicklung des Frontends mit Angular einschließlich Benutzeroberflächen zur Verwaltung und Visualisierung von Prüfdaten.', 'Implementierung sicherer Authentifizierungs- und Autorisierungskonzepte sowie Containerisierung der Anwendung mit Docker.', 'Zusammenarbeit in einem kleinen Team im Rahmen eines Industrieprojekts in einem Universitätskurs.'],
-            en: ['Designed and built a web platform to support and document industrial pump testing.', 'Developed a microservice architecture with Java, Spring Boot, RabbitMQ, PostgreSQL, Redis and Keycloak.', 'Owned frontend design and development with Angular, including interfaces for managing and visualizing test data.', 'Implemented secure authentication and authorization concepts and containerized the application with Docker.', 'Collaborated in a small team as part of an industry project in a university course.']
-        },
-        tags: ['Java', 'Spring Boot', 'Angular', 'RabbitMQ', 'PostgreSQL', 'Redis', 'Docker', 'Microservices']
-    }],
+            name: {de: 'Notbrems-Simulation', en: 'Emergency Brake Simulation'},
+            description: {de: 'Echtzeit-Simulationsplattform zur Visualisierung von Notbrems-Szenarien mit Microservices, Messaging und Live-Datenvisualisierung', en: 'Real-time simulation platform visualizing emergency braking scenarios using microservices, messaging and live data visualization'},
+            date: '2025',
+            items: {
+                de: [
+                    'Entwicklung einer Echtzeit-Simulation zur Visualisierung von Notbremsmanövern zweier Fahrzeuge in einer Visor-Webanwendung.',
+                    'Rolle: Teamkoordination und technische Architektur — Leitung des Systemdesigns, der Microservice-Schnittstellen und der Kommunikationsinfrastruktur.',
+                    'Verantwortlich für Implementierung diverser Microservices sowie für die Einrichtung des Messaging-Systems mit RabbitMQ.',
+                    'Integration von GPS-, Geschwindigkeits- und Distanzdaten aus Fahrzeug-Microservices; Echtzeit-Visualisierung von Status und Metriken.',
+                    'Ereignisprotokollierung durch den Central Director zur Nachverfolgung ausgestellter Kommandos während der Simulation.',
+                    'Durchgeführt als Universitätsprojekt / Studienprojekt.'
+                ],
+                en: [
+                    'Built a real-time simulation to visualize emergency braking scenarios of two vehicles within a Visor web application.',
+                    'Role: team coordinator and technical architect — led system design, microservice interfaces, and communications infrastructure.',
+                    'Owned implementation of diverse microservices and the setup of the messaging system with RabbitMQ.',
+                    'Integrated real-time GPS, speed and distance metrics from vehicle microservices; provided live visualization of status and metrics.',
+                    'Completed as a university project (course project).'
+                ]
+            },
+            tags: ['Java', 'Spring Boot', 'RabbitMQ', 'MongoDB', 'Kubernetes', 'Minikube', 'Microservices', 'Data Visualization', 'University Project']
+        }, {
+            name: 'Site-Lapse',
+            description: {
+                de: 'Cloud-native Plattform zur automatisierten Videoerstellung',
+                en: 'Cloud-native platform for automated video creation'
+            },
+            date: '2024',
+            items: {
+                de: ['Entwicklung einer serverlosen Cloud-Anwendung zur automatisierten Erstellung von Zeitraffer- und Fortschrittsvideos aus hochgeladenen Bildern.', 'Konzeption und Implementierung einer ereignisgesteuerten Architektur mit AWS Lambda und Amazon S3.', 'Entwicklung der Backend-Logik in TypeScript zur Verarbeitung von Bilddaten und Orchestrierung der Videoerstellung.', 'Umsetzung der Infrastruktur als Code mit dem Serverless Stack (SST) zur Bereitstellung und Verwaltung der AWS-Ressourcen.', 'Aufbau einer vollständig serverlosen und skalierbaren Cloud-Native-Architektur.'],
+                en: ['Built a serverless cloud application for automatically creating time-lapse and progress videos from uploaded images.', 'Designed and implemented an event-driven architecture with AWS Lambda and Amazon S3.', 'Developed TypeScript backend logic for image processing and video-generation orchestration.', 'Implemented infrastructure as code with the Serverless Stack (SST) to provision and manage AWS resources.', 'Built a fully serverless and scalable cloud-native architecture.']
+            },
+            tags: ['TypeScript', 'AWS', 'AWS Lambda', 'Amazon S3', 'SST', 'Serverless', 'Cloud Native', 'University Project']
+        }, {
+            name: {de: 'Plattform zur industriellen Pumpenprüfung', en: 'Industrial pump testing platform'},
+            description: {de: 'Vergütetes Industrieprojekt', en: 'Paid industry project'},
+            date: '2024',
+            items: {
+                de: ['Konzeption und Umsetzung einer webbasierten Plattform zur Unterstützung und Dokumentation industrieller Pumpenprüfungen.', 'Entwicklung einer Microservice-Architektur mit Java, Spring Boot, RabbitMQ, PostgreSQL, Redis und Keycloak.', 'Verantwortlich für Design und Entwicklung des Frontends mit Angular einschließlich Benutzeroberflächen zur Verwaltung und Visualisierung von Prüfdaten.', 'Implementierung sicherer Authentifizierungs- und Autorisierungskonzepte sowie Containerisierung der Anwendung mit Docker.', 'Zusammenarbeit in einem kleinen Team im Rahmen eines Industrieprojekts in einem Universitätskurs.'],
+                en: ['Designed and built a web platform to support and document industrial pump testing.', 'Developed a microservice architecture with Java, Spring Boot, RabbitMQ, PostgreSQL, Redis and Keycloak.', 'Owned frontend design and development with Angular, including interfaces for managing and visualizing test data.', 'Implemented secure authentication and authorization concepts and containerized the application with Docker.', 'Collaborated in a small team as part of an industry project in a university course.']
+            },
+            tags: ['Java', 'Spring Boot', 'Angular', 'RabbitMQ', 'PostgreSQL', 'Redis', 'Docker', 'Microservices', 'University Project']
+        }],
     education: [{
         date: {de: '02/2025 — heute', en: '02/2025 — present'},
         role: {de: 'Masterstudium Software Engineering', en: 'Master’s in Software Engineering'},
         company: 'Technische Universität Wien',
         place: {de: 'Wien', en: 'Vienna'},
         text: {
-            de: 'Voraussichtlicher Abschluss: 2027 \n Auslandssemester: Radboud Universität, Niederlande (01/2026 — 07/2026)\nSchwerpunkte: Softwarearchitektur, Verteilte Systeme, Cloud Computing, Softwaretest, Requirements Engineering, Machine Learning und Artificial Intelligence.',
-            en: 'Expected graduation: 2027 · Exchange semester: Radboud University, Netherlands (01/2026 — 07/2026)\nFocus: Software architecture, distributed systems, cloud computing, software testing, requirements engineering, machine learning and artificial intelligence.'
+            de: 'Voraussichtlicher Abschluss: 2027 \nAuslandssemester: Radboud Universität, Niederlande (01/2026 — 07/2026)\nSchwerpunkte: Softwarearchitektur, Verteilte Systeme, Cloud Computing, Softwaretest, Requirements Engineering, Machine Learning und Artificial Intelligence.',
+            en: 'Expected graduation: 2027 \nExchange semester: Radboud University, Netherlands (01/2026 — 07/2026)\nFocus: Software architecture, distributed systems, cloud computing, software testing, requirements engineering, machine learning and artificial intelligence.'
         }
     }, {
         date: '10/2020 — 02/2025',
