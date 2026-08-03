@@ -2,7 +2,7 @@ const copy = {
     de: {
         eyebrow: 'Software Developer · Wien',
         tagline: 'Fullstack Software Entwickler, der zuverlässige digitale Systeme entwickelt.',
-        intro: 'Masterstudent der Software Engineering an der TU Wien. Begeistert von Full-Stack-Entwicklung, Softwarearchitektur und der Entwicklung skalierbarer Cloud-Native-Anwendungen.',
+        intro: 'Masterstudent des Software Engineerings an der TU Wien. Begeistert von Full-Stack-Entwicklung, Softwarearchitektur und der Entwicklung skalierbarer Cloud-Native-Anwendungen.',
         explore: 'Entdecken',
         profileTitle: 'Profil',
         experienceTitle: 'Erfahrung',
@@ -18,7 +18,7 @@ const copy = {
         footer: 'Software Developer · Wien / Österreich',
         location: 'Wien, Österreich',
         printCv: 'Drucken / PDF',
-        profile: 'Masterstudent des Software Engineering an der TU Wien mit Schwerpunkt auf Full-Stack-Entwicklung, Softwarearchitektur und Cloud-Native-Anwendungen. Erfahrung in der Konzeption und Umsetzung skalierbarer Webanwendungen mit Java, Spring Boot, Angular und React sowie im Deployment mikroservicebasierter Systeme mit Docker und Kubernetes.'
+        profile: 'Masterstudent des Software Engineering an der TU Wien mit Schwerpunkt auf Full-Stack-Entwicklung, Softwarearchitektur und Cloud-Anwendungen. Erfahrung in der Konzeption und Umsetzung skalierbarer Webanwendungen mit Java, Spring Boot, Angular und React sowie im Deployment mikroservicebasierter Systeme mit Docker und Kubernetes.'
     },
     en: {
         eyebrow: 'Software Developer · Vienna',
@@ -39,7 +39,7 @@ const copy = {
         footer: 'Software Developer · Vienna / Austria',
         location: 'Vienna, Austria',
         printCv: 'Print / PDF',
-        profile: 'Master’s student in Software Engineering at TU Wien with a focus on full stack development, software architecture, and cloud-native applications. Experienced in designing and implementing scalable web applications using Java, Spring Boot, Angular, and React, as well as deploying microservice-based systems with Docker and Kubernetes.'
+        profile: 'Master’s student in Software Engineering at TU Wien with a focus on full stack development, software architecture, and cloud applications. Experienced in designing and implementing scalable web applications using Java, Spring Boot, Angular, and React, as well as deploying microservice-based systems with Docker and Kubernetes.'
     }
 };
 const data = {
@@ -104,28 +104,28 @@ const data = {
             },
             tags: ['Scala', 'Apache Spark', 'Hadoop', 'Data Engineering', 'Big Data', 'University Project']
         },
-        {
-            name: {de: 'IssueLens', en: 'IssueLens'},
-            description: {de: 'Zusammenfassung und Suche für GitHub-Issues', en: 'Summarization and Search for GitHub Issues'},
-            date: '2025',
-            items: {
-                de: [
-                    'Entwicklung eines Systems zur automatischen Zusammenfassung und verbesserten Suche über GitHub-Issues.',
-                    'Implementierung einer komponentengesteuerten Angular-Oberfläche mit Listen- und Detailansichten für Issues.',
-                    'Aufbau eines Django/Python-Backends zur Vermittlung zwischen GitHub REST API und einem LLM-basierten RAG-Service (OpenRouter).',
-                    'RAG-Pipeline: Retrieval relevanter Issue-Threads, Kontextkondensation und Prompt-Engineering zur Ausgabe eines definierten Markdown-Formats.',
-                    'Durchgeführt als Universitätsprojekt.'
-                ],
-                en: [
-                    'Built a system for automatic summarization and improved search over GitHub issues.',
-                    'Implemented a component-based Angular UI with issue list and detail views.',
-                    'Developed a Django/Python backend to mediate between the GitHub REST API and an LLM-based RAG service (OpenRouter).',
-                    'RAG pipeline: retrieve relevant issue threads, condense context and prompt the model to produce a defined Markdown output.',
-                    'Completed as a university project.'
-                ]
-            },
-            tags: ['Django', 'Python', 'Angular', 'OpenRouter', 'RAG', 'GitHub API', 'NLP', 'University Project']
-        },
+        // {
+        //     name: {de: 'IssueLens', en: 'IssueLens'},
+        //     description: {de: 'Zusammenfassung und Suche für GitHub-Issues', en: 'Summarization and Search for GitHub Issues'},
+        //     date: '2025',
+        //     items: {
+        //         de: [
+        //             'Entwicklung eines Systems zur automatischen Zusammenfassung und verbesserten Suche über GitHub-Issues.',
+        //             'Implementierung einer komponentengesteuerten Angular-Oberfläche mit Listen- und Detailansichten für Issues.',
+        //             'Aufbau eines Django/Python-Backends zur Vermittlung zwischen GitHub REST API und einem LLM-basierten RAG-Service (OpenRouter).',
+        //             'RAG-Pipeline: Retrieval relevanter Issue-Threads, Kontextkondensation und Prompt-Engineering zur Ausgabe eines definierten Markdown-Formats.',
+        //             'Durchgeführt als Universitätsprojekt.'
+        //         ],
+        //         en: [
+        //             'Built a system for automatic summarization and improved search over GitHub issues.',
+        //             'Implemented a component-based Angular UI with issue list and detail views.',
+        //             'Developed a Django/Python backend to mediate between the GitHub REST API and an LLM-based RAG service (OpenRouter).',
+        //             'RAG pipeline: retrieve relevant issue threads, condense context and prompt the model to produce a defined Markdown output.',
+        //             'Completed as a university project.'
+        //         ]
+        //     },
+        //     tags: ['Django', 'Python', 'Angular', 'OpenRouter', 'RAG', 'GitHub API', 'NLP', 'University Project']
+        // },
         {
             name: 'Dormlife',
             description: {
@@ -134,29 +134,31 @@ const data = {
             },
             date: '2025',
             items: {
-                de: ['Entwicklung des Backends einer plattformübergreifenden Community- und Verwaltungsplattform für iOS, Android und Web.', 'Konzeption und Implementierung einer Microservice-Architektur mit Java, Spring Boot und Spring Cloud Gateway.', 'Entwicklung von Backend-Diensten für Benutzerverwaltung, Veranstaltungen und Ressourcenreservierungen sowie sicherer REST-Schnittstellen.', 'Konzeption und Betrieb der Container- und Orchestrierungsinfrastruktur mit Docker und Kubernetes.', 'Integration von PostgreSQL, Anbindung einer externen MySQL-Datenquelle und Deployment auf einem Kubernetes-Cluster.'],
-                en: ['Built the backend for a cross-platform community and administration platform for iOS, Android and web.', 'Designed and implemented a microservice architecture with Java, Spring Boot and Spring Cloud Gateway.', 'Developed backend services for user management, events and resource reservations, including secure REST APIs.', 'Designed and operated container and orchestration infrastructure with Docker and Kubernetes.', 'Integrated PostgreSQL, connected an external MySQL data source and deployed to a Kubernetes cluster.']
+                de: ['Entwicklung des Backends einer plattformübergreifenden Community- und Verwaltungsplattform für iOS, Android und Web.', 'Konzeption und Implementierung einer Microservice-Architektur mit Java, Spring Boot und Spring Cloud Gateway.', 'Entwicklung von Backend-Diensten für Benutzerverwaltung, Veranstaltungen und Ressourcenreservierungen sowie sicherer REST-Schnittstellen.', 'Konzeption der Container- und Orchestrierungsinfrastruktur mit Docker und Kubernetes.', 'Integration von PostgreSQL, Anbindung einer externen MySQL-Datenquelle und Deployment auf einem Kubernetes-Cluster.'],
+                en: ['Built the backend for a cross-platform community and administration platform for iOS, Android and web.', 'Designed and implemented a microservice architecture with Java, Spring Boot and Spring Cloud Gateway.', 'Developed backend services for user management, events and resource reservations, including secure REST APIs.', 'Designed container and orchestration infrastructure with Docker and Kubernetes.', 'Integrated PostgreSQL, connected an external MySQL data source and deployed to a Kubernetes cluster.']
             },
             tags: ['Java', 'Spring Boot', 'Spring Cloud Gateway', 'Docker', 'Kubernetes', 'PostgreSQL', 'REST APIs']
         }, {
             name: {de: 'Notbrems-Simulation', en: 'Emergency Brake Simulation'},
-            description: {de: 'Echtzeit-Simulationsplattform zur Visualisierung von Notbrems-Szenarien mit Microservices, Messaging und Live-Datenvisualisierung', en: 'Real-time simulation platform visualizing emergency braking scenarios using microservices, messaging and live data visualization'},
+            description: {
+                de: 'Echtzeit-Simulationsplattform zur Visualisierung von Notbrems-Szenarien mit Microservices, Messaging und Live-Datenvisualisierung',
+                en: 'Real-time simulation platform visualizing emergency braking scenarios using microservices, messaging and live data visualization'
+            },
             date: '2025',
             items: {
                 de: [
                     'Entwicklung einer Echtzeit-Simulation zur Visualisierung von Notbremsmanövern zweier Fahrzeuge in einer Visor-Webanwendung.',
                     'Rolle: Teamkoordination und technische Architektur — Leitung des Systemdesigns, der Microservice-Schnittstellen und der Kommunikationsinfrastruktur.',
                     'Verantwortlich für Implementierung diverser Microservices sowie für die Einrichtung des Messaging-Systems mit RabbitMQ.',
-                    'Integration von GPS-, Geschwindigkeits- und Distanzdaten aus Fahrzeug-Microservices; Echtzeit-Visualisierung von Status und Metriken.',
-                    'Ereignisprotokollierung durch den Central Director zur Nachverfolgung ausgestellter Kommandos während der Simulation.',
-                    'Durchgeführt als Universitätsprojekt / Studienprojekt.'
+                    'Integration von simulierten GPS-, Geschwindigkeits- und Distanzdaten aus Fahrzeug-Microservices; Echtzeit-Visualisierung von Status und Metriken.',
+                    'Durchgeführt als Universitätsprojekt.'
                 ],
                 en: [
                     'Built a real-time simulation to visualize emergency braking scenarios of two vehicles within a Visor web application.',
                     'Role: team coordinator and technical architect — led system design, microservice interfaces, and communications infrastructure.',
                     'Owned implementation of diverse microservices and the setup of the messaging system with RabbitMQ.',
-                    'Integrated real-time GPS, speed and distance metrics from vehicle microservices; provided live visualization of status and metrics.',
-                    'Completed as a university project (course project).'
+                    'Integrated simulated real-time GPS, speed and distance metrics from vehicle microservices; provided live visualization of status and metrics.',
+                    'Completed as a university project.'
                 ]
             },
             tags: ['Java', 'Spring Boot', 'RabbitMQ', 'MongoDB', 'Kubernetes', 'Minikube', 'Microservices', 'Data Visualization', 'University Project']
@@ -166,7 +168,7 @@ const data = {
                 de: 'Cloud-native Plattform zur automatisierten Videoerstellung',
                 en: 'Cloud-native platform for automated video creation'
             },
-            date: '2024',
+            date: '2025',
             items: {
                 de: ['Entwicklung einer serverlosen Cloud-Anwendung zur automatisierten Erstellung von Zeitraffer- und Fortschrittsvideos aus hochgeladenen Bildern.', 'Konzeption und Implementierung einer ereignisgesteuerten Architektur mit AWS Lambda und Amazon S3.', 'Entwicklung der Backend-Logik in TypeScript zur Verarbeitung von Bilddaten und Orchestrierung der Videoerstellung.', 'Umsetzung der Infrastruktur als Code mit dem Serverless Stack (SST) zur Bereitstellung und Verwaltung der AWS-Ressourcen.', 'Aufbau einer vollständig serverlosen und skalierbaren Cloud-Native-Architektur.'],
                 en: ['Built a serverless cloud application for automatically creating time-lapse and progress videos from uploaded images.', 'Designed and implemented an event-driven architecture with AWS Lambda and Amazon S3.', 'Developed TypeScript backend logic for image processing and video-generation orchestration.', 'Implemented infrastructure as code with the Serverless Stack (SST) to provision and manage AWS resources.', 'Built a fully serverless and scalable cloud-native architecture.']
