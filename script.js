@@ -138,31 +138,7 @@ const data = {
                 en: ['Built the backend for a cross-platform community and administration platform for iOS, Android and web.', 'Designed and implemented a microservice architecture with Java, Spring Boot and Spring Cloud Gateway.', 'Developed backend services for user management, events and resource reservations, including secure REST APIs.', 'Designed container and orchestration infrastructure with Docker and Kubernetes.', 'Integrated PostgreSQL, connected an external MySQL data source and deployed to a Kubernetes cluster.']
             },
             tags: ['Java', 'Spring Boot', 'Spring Cloud Gateway', 'Docker', 'Kubernetes', 'PostgreSQL', 'REST APIs']
-        }, {
-            name: {de: 'Notbrems-Simulation', en: 'Emergency Brake Simulation'},
-            description: {
-                de: 'Echtzeit-Simulationsplattform zur Visualisierung von Notbrems-Szenarien mit Microservices, Messaging und Live-Datenvisualisierung',
-                en: 'Real-time simulation platform visualizing emergency braking scenarios using microservices, messaging and live data visualization'
-            },
-            date: '2025',
-            items: {
-                de: [
-                    'Entwicklung einer Echtzeit-Simulation zur Visualisierung von Notbremsmanövern zweier Fahrzeuge in einer Visor-Webanwendung.',
-                    'Rolle: Teamkoordination und technische Architektur — Leitung des Systemdesigns, der Microservice-Schnittstellen und der Kommunikationsinfrastruktur.',
-                    'Verantwortlich für Implementierung diverser Microservices sowie für die Einrichtung des Messaging-Systems mit RabbitMQ.',
-                    'Integration von simulierten GPS-, Geschwindigkeits- und Distanzdaten aus Fahrzeug-Microservices; Echtzeit-Visualisierung von Status und Metriken.',
-                    'Durchgeführt als Universitätsprojekt.'
-                ],
-                en: [
-                    'Built a real-time simulation to visualize emergency braking scenarios of two vehicles within a Visor web application.',
-                    'Role: team coordinator and technical architect — led system design, microservice interfaces, and communications infrastructure.',
-                    'Owned implementation of diverse microservices and the setup of the messaging system with RabbitMQ.',
-                    'Integrated simulated real-time GPS, speed and distance metrics from vehicle microservices; provided live visualization of status and metrics.',
-                    'Completed as a university project.'
-                ]
-            },
-            tags: ['Java', 'Spring Boot', 'RabbitMQ', 'MongoDB', 'Kubernetes', 'Minikube', 'Microservices', 'Data Visualization', 'University Project']
-        }, {
+        },{
             name: 'Site-Lapse',
             description: {
                 de: 'Cloud-native Plattform zur automatisierten Videoerstellung',
