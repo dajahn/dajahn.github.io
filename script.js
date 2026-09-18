@@ -193,8 +193,8 @@ const data = {
     }],
     skills: [['Programmiersprachen|Programming languages', ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL']], ['Frameworks|Frameworks', ['Spring Boot', 'Spring Cloud Gateway', 'Angular', 'React', 'JavaFX', 'Ionic', 'Node.js', 'PyTorch']], ['Cloud & DevOps|Cloud & DevOps', ['AWS', 'Amazon S3', 'Docker', 'Kubernetes', 'GitHub Actions', 'SST']], ['Datenbanken|Databases', ['PostgreSQL', 'MySQL', 'Redis', 'MongoDB', 'Oracle Database']], ['API & Datenformate|APIs & data formats', ['REST APIs', 'GraphQL', 'SPARQL']], ['Build-Tools & Umgebungen|Build tools & environments', ['Git', 'Maven', 'Gradle', 'Linux', 'IntelliJ IDEA', 'VS Code', 'Eclipse']], ['Software Engineering|Software engineering', ['Microservices', 'Cloud Native', 'CI/CD', 'Design Patterns', 'Agile Scrum', 'Software Testing']]],
     interests: {
-        de: ['Software Architektur', 'Verteilte Systeme', 'Cloud Computing', 'Artificial Intelligence', 'Neue Technologien'],
-        en: ['Software architecture', 'Distributed systems', 'Cloud computing', 'Artificial intelligence', 'New technologies']
+        de: ['Krav Maga', 'Lesen', 'Technologische Neuerungen', 'Videospiele', 'Reisen'],
+        en: ['Krav Maga', 'Reading', 'Technological innovations', 'Video games', 'Traveling']
     }
 };
 let lang = 'de';
